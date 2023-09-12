@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#blue {
+    background-color: #00f;
+    color: #fff;
+}
+
+#red {
+    background-color: #f00;
+    color: #fff;
+}
