@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <!-- Required meta tags -->
@@ -9,39 +9,181 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="style.css">
     <title>William Batista</title>
 </head>
 
 <body>
-    <h1>Hello, World!</h1>
+    <header>
+        <nav class="navbar navbar-light nav-top">
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="https://www.instagram.com/williamsantana_10/" target="_blank"><img
+                        src="img/logo.png" style=" max-width:130px; 
+                    max-height:80px"></a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                </form>
+                <div style="width: 30%;">
+                    <i class="bi bi-house-door-fill icons"></i>
+                    <i class="bi bi-inbox icons"></i>
+                    <i class="bi bi-compass icons"></i>
+                    <i class="bi bi-heart icons"></i>
+                    <a href="https://www.instagram.com/williamsantana_10/" target="_blank" rel="external"><img
+                            class="img-nav" src="img/347814014_209703495288579_7426279966359398680_n.jpg"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-0 col-md-2"></div>
+                <div class="col-12 col-md-8">
+                    <div class="container">
+                        <div class="row" style="padding-top: 20px;">
+                            <div class="col-3"></div>
+                            <img class="img-profile" src="img/347814014_209703495288579_7426279966359398680_n.jpg"
+                                alt="foto_perfil">
+
+                            <div class="col-7"></div>
+                            <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
+                                <div class="col-8 col-lg-5">
+                                    <h2 class="username">williamsantana_10</h2>
+                                </div>
+                                <div class="col-4 col-lg-6"><button type="button"
+                                        class="btn btn-outline-secondary button-edit">Editar
+                                        perfil</button></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <p class="profile-datas"><strong>194</strong> publicações</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="profile-datas"><strong>5.300</strong> seguidores</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="profile-datas"><strong>667</strong> seguindo</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="name">William Batista</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="profile-desc">Software Developer</p>
+                                </div>
+                            </div>
+                            <div class="col-2"></div>
+                        </div>
+                    </div>
+                    <div style="padding-top: 0px;">
+                        <div class="row">
+                            <div class="col-2"> <canvas id="myCrl"></canvas></div>
+                            <div class="col-2"> <canvas id="myCrl1"></canvas></div>
+                            <div class="col-2"> <canvas id="myCrl2"></canvas></div>
+                        </div>
+                    </div>
+                    <div style="padding-bottom: 40px;">
+                        <div class="row">
+                            <div class="col-2 stories"> Checklist</div>
+                            <div class="col-2 stories"> Youtube</div>
+                            <div class="col-2 stories"> Developer</div>
+                        </div>
+                    </div>
+                    <!--Line-->
+                    <hr size="3" width="100%" color="#EEEEEE" style="margin: 0%;">
+                    <!-- Nav feed-->
+                    <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home"
+                                role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i>
+                                PUBLICAÇÕES</a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile"
+                                role="tab" aria-controls="profile" aria-selected="false"><i
+                                    class="bi bi-file-person"></i> MARCADOS</a>
+                        </li>
+                    </ul>
+                    <!-- Card feed-->
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row" style="padding-bottom: 25px;">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post1.png" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post4.png" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post3.png" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-bottom: 25px;">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post2.png" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post5.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post6.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-bottom: 25px;">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <img src="images/post7.png" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                    </div>
+                </div>
+                <div class="col-0 col-md-2"></div>
             </div>
         </div>
-    </nav>
+        </div>
+        <div class="col-0 col-md-2"></div>
+        </div>
+        </div>
+    </section>
 
+    <script src="script.js">
+    </script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

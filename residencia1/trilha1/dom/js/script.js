@@ -1,4 +1,4 @@
-const input_element = document.querySelector('input');
+const input_element = document.querySelectorAll('.tarefa');
 const button_element = document.querySelector('form button');
 const ul_element = document.querySelector('ul');
 
