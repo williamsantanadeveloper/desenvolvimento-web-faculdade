@@ -5,16 +5,12 @@ const verificacao_aprovacao = () => {
     let resultado = document.getElementById("resultado");
 
     if (media === 10) {
-        resultado.textContent = 'Aprovado com Distinção!'
+        resultado.textContent = 'Aprovado com Distinção!';
     }
     else if (media >= 7) {
-        resultado.textContent = 'Aprovado!'
+        resultado.textContent = 'Aprovado!';
     }
     else if (media < 7) {
-        resultado.textContent = 'Reprovado!'
-    }
-
-    else {
-
+        resultado.textContent = 'Reprovado!';
     }
 }
