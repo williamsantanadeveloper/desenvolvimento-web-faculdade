@@ -24,7 +24,9 @@
                 <h4>Ingredientes</h4>
                 <p>Calabresa, queijo, cebola</p>
                 <p>Preço: R$50,00</p>
-                <input type="submit" value="Adicionar ao carrinho" class="add_carrinho">
+                <button type="button" id="pizza_calabresa" class="button-style" onclick="add_carrinho()">Adicionar ao
+                    carrinho</button>
+                <p id="result_pizza_calabresa"></p>
             </div>
         </div>
         <div>
@@ -34,7 +36,9 @@
                 <h4>Ingredientes</h4>
                 <p>Ovos, cebola, azeitona, ervilha, queijo, presunto, pimentão e milho</p>
                 <p>Preço: R$50,00</p>
-                <input type="submit" value="Adicionar ao carrinho" class="add_carrinho" disabled>
+                <button type="button" class="button-style" id="pizza_portuguesa" onclick="add_carrinho()">Adicionar ao
+                    carrinho</button>
+                <p id="result_pizza_portuguesa"></p>
             </div>
         </div>
     </section>
@@ -44,6 +48,8 @@
             <p><button type="button">Ir para o carrinho</button></p>
         </a>
     </div>
+
+    <script src="../javascript/add_carrinho.js"></script>
 </body>
 
 </html>
