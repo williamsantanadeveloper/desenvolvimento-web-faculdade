@@ -1,0 +1,19 @@
+* {
+    font-weight: normal;
+    text-align: center;
+}
+
+
+section {
+    display: block;
+}
+
+#titulo, #subtitulo {
+    text-align: left;
+}
+#titulo {
+    font-size: 25px;
+}
+#subtitulo {
+    font-size: 18px;
+}
