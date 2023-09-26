@@ -1,0 +1,13 @@
+p.red {
+    border-style: solid;
+    border-color: red;
+}
+
+p.green {
+    border: 3px solid green;
+}
+
+p.multicolor {
+    border-style: solid;
+    border-color: red green blue yellow;
+}

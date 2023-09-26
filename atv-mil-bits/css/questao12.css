@@ -1,0 +1,19 @@
+#rgb {
+    background-color: rgb(255, 99, 71);
+}
+
+#hexadecimal {
+    background-color: #ff6347;
+}
+
+#hsl {
+    background-color: hsl(9, 100%, 64%);
+}
+
+#rgba {
+    background-color: rgba(255, 99, 71, 0.5);
+}
+
+#hsla {
+    background-color: hsla(9, 100%, 64%, 0.5);
+}
