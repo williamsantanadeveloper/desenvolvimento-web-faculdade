@@ -1,0 +1,9 @@
+div {
+    background: lightblue;
+    border: 2px solid #000;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    /* ou padding: 50px 30px 50px 80px;*/
+}
