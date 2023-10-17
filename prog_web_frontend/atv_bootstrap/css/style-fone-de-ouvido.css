@@ -1,0 +1,41 @@
+.container-fluid {
+    background-color: #303030;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar {
+    color: #000;
+}
+
+.text {
+    color: #fff !important;
+}
+
+main {
+    display: flex;
+    
+}
+
+.texto-negrito, .texto-descricao {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.area-img {
+    justify-content: center;
+}
+
+button {
+    margin-top: 15px !important;
+}
+
+.area-detalhes {
+    margin: 50px !important;
+}
+
+main>button {
+    height: 30px;
+}
