@@ -10,10 +10,10 @@ const adivinhar_numero = () => {
     if (number == number_predefinido) {
         let contador = 0;
         while (number != number_predefinido) {
+            contador += 1
             contador++
-
         }
-        result.textContent = 'Você acertou! Parabéns!'.concat('Você acertou em ', contador += 1, ' tentativas')
+        result.textContent = 'Você acertou! Parabéns! '.concat('Você acertou em ', contador += 1, ' tentativas')
     }
 
     else if (number < number_predefinido) {
