@@ -1,0 +1,20 @@
+* {
+    text-align: center;
+    top: 50%;
+    left: 20%;
+
+}
+
+body {
+    background: aquamarine;
+}
+
+button {
+    border: none;
+    color: #00f;
+    background-color: aqua;
+}
+
+button::placeholder {
+    background-color: rgb(212, 220, 226);
+}
