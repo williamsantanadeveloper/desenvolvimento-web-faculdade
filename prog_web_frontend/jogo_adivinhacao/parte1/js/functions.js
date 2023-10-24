@@ -32,3 +32,9 @@ const adivinhar_numero = () => {
     //     result.textContent = 'Tente novamente!'
     // }
 };
+
+const contador = () => {
+    document.getElementById('contador').addEventListener('click', function () {
+        location.reload()
+    })
+}
